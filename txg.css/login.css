@@ -1,0 +1,48 @@
+.page-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    gap:48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+h3 {
+    padding-bottom: 8px;
+}
+
+button {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.forgot-password {
+    text-align: right !important;
+    padding-bottom: 8px;
+}
+
+.forgot-password>a {
+    text-decoration: none;
+}
+
+.form-control {
+    margin-bottom: 8px;
+}
+
+.check-box {
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.form-check-label>a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {.page-container {
+    display: grid;
+    grid-template-columns: repeat(1,300px);
+    justify-content: center;
+    gap: 24px;
+    padding-top: 24px;}}

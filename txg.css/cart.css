@@ -1,0 +1,184 @@
+.page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(24px, auto);
+    flex-wrap: wrap;
+    grid-template-areas:
+        "aa aa bb cc dd"
+        "ee ff gg hh ii"
+        "kk kk kk oo oo"
+}
+
+.item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.item-1 {
+    grid-column: 1/3;
+    grid-area: aa;
+}
+
+.item-2 {
+    grid-area: bb;
+}
+
+.item-3 {
+    grid-area: cc;
+}
+
+.item-4 {
+    grid-area: dd;
+    width: 100%;
+}
+
+.item-4 b {
+    width: 100%;
+    text-align: right;
+}
+
+.item-5 {
+    grid-area: ee;
+}
+
+.item-6 {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px;
+    grid-area: ff;
+}
+
+.item-6>a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+
+}
+
+.item-7 {
+    grid-area: gg;
+}
+
+.item-8 {
+    grid-area: hh;
+}
+
+.item-9 {
+    grid-area: ii;
+    width: 100%;
+}
+
+.cart-total {
+    width: 100%;
+}
+
+.cart-total h5 {
+    text-align: right;
+}
+
+.item-10 {
+    grid-area: kk;
+}
+
+.item-11 {
+    grid-area: oo;
+    justify-content: right;
+    width: 100%;
+    position: relative;
+}
+
+.cart-subtotal p {
+    text-align: right;
+}
+
+.cart-subtotal h3 {
+    text-align: right;
+}
+
+.item-5>img {
+    max-width: 100%;
+    height: 100%;
+}
+
+p {
+    width: 100%;
+}
+
+input.form-control {
+    width: 80px;
+    height: 32px;
+}
+
+.cart-input {
+    width: 100%;
+    padding-left: 28px;
+}
+
+button {
+    width: 120px;
+    margin-left: 12px !important;
+    background-color: black;
+    color: white;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    background-color: #efeff4;
+}
+
+.sign-up-container p {
+    text-align: center;
+}
+
+.sign-up-input {
+    display: flex;
+    width: auto;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.social-channel {
+    display: flex;
+}
+
+.channel>img {
+    height: 48px;
+    width: 48px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(24px, auto);
+        flex-wrap: wrap;
+        grid-template-areas:
+            "aa aa"
+            "ee ff"
+            "bb gg"
+            "cc hh"
+            "dd ii"
+            "kk kk"
+            "oo oo"
+    }
+
+}

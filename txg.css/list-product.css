@@ -1,0 +1,149 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+.filter-bar {
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+
+button.btn.btn-secondary.dropdown-toggle {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 6px 0px !important;
+
+}
+
+
+
+ul.dropdown-menu.show {
+    width: 240px;
+    padding-left: 8px;
+}
+
+.product-pic>img {
+    width: 100%;
+    height: 400px;
+}
+
+.all-product {
+    width: 900px;
+    padding-left: 24px;
+}
+
+.category {
+    width: 25%;
+}
+
+.all-product {
+    width: 75%;
+}
+
+.product-name {
+    color: #c8c8c8;
+    padding-top: 4px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product-price {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-type {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    padding-left: 0 !important;
+
+}
+
+.pagnition {
+    display: flex;
+    justify-content: center;
+}
+
+.form-check .form-check-input {
+    margin-left: -15px !important;
+    margin-right: 10px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    background-color: #efeff4;
+}
+
+.sign-up-input {
+    display: flex;
+    width: auto;
+}
+
+button {
+    width: 120px;
+    margin-left: 12px !important;
+    background-color: black;
+    color: white;
+}
+
+a.page-link {
+    color: black;
+}
+
+h3 {
+    padding-left: 12px;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.social-channel {
+    display: flex;
+}
+
+.color-pick {
+    display: grid;
+    grid-template-columns: 26px 26px 26px 26px 26px 26px 26px;
+    gap: 6px;
+    padding: 8px 8px !important;
+}
+
+.color-pick>img {
+    border-style: black solid 12px;
+}
+
+.channel>img {
+    height: 48px;
+    width: 48px;
+}
+
