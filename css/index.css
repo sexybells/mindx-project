@@ -41,19 +41,49 @@ header li {
     color: white;
 }
 
+.header_menu {
+    position: relative;
+}
+
 .header_center {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
 }
 
-.header_menu ul {
+.header_menu > ul {
     display: flex;
     flex-direction: row;
 }
 
-.header_menu ul li ul {
+.header_logo {
+    padding: 20px;
+}
+
+.sub_menu {
     display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 230px;
+    /*bottom: 1000px;*/
+}
+
+.account {
+
+}
+
+.sub_menu li {
+    padding: 10px;
+}
+
+.header_li {
+    padding: 20px;
+}
+
+.header_functions {
+
 }
 
 .header_menu ul li a {
@@ -64,6 +94,12 @@ header li {
 .header_functions ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_functions ul li {
+    padding: 10px;
 }
 
 .header_functions {
@@ -150,6 +186,99 @@ footer {
 
 .footer_content li img {
 
+}
+
+.header_center_mobile {
+    display: none;
+}
+
+.product_detail_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider {
+    overflow: hidden;
+
+}
+
+.product_gallery {
+    height: auto;
+    display: flex;
+}
+
+.new_products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.new_products_title {
+    text-align: center;
+}
+
+.products_highlight {
+
+    margin-bottom: 50px;
+}
+
+.products_highlight_title {
+    text-align: center
+}
+
+.splide__pagination {
+    display: none;
+}
+
+.product_detail_item {
+
+}
+
+.product_main_image {
+    padding: 20px;
+}
+
+.product_main_image img {
+    width: 100%;
+
+}
+
+.logout {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header_center {
+        display: none;
+    }
+
+    .header_top {
+        display: none;
+    }
+
+    .header_center_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header_icon {
+        padding: 10px;
+    }
+
+    .header_icon_inner {
+        display: flex;
+    }
+
+    .header_icon_inner > div {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner_new {
+        flex-direction: column;
+    }
 }
 
 

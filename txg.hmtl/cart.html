@@ -4,106 +4,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/txg.css/cart.css">
+    <link rel="stylesheet" href="../txg.css/cart.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Document</title>
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
-    <div class="page-container">
-        <h3>Giỏ hàng</h3>
-        <div class="container">
-
-            <div class="item-1 item"><b>Sản phẩm</b></div>
-            <div class="item-2 item"><b>Giá</b></div>
-            <div class="item-3 item"><b>Số lượng</b></div>
-            <div class="item-4 item"><b>Tổng tiền</b></div>
-            <div class="item-5 item">
-                <img src="/txg.asset/cart-image.webp"
-                    class="img-fluid" alt="">
-            </div>
-
-            <div class="item-6 item">
-                <a href="#">
-                    <h5>ĐẦM THIẾT KẾ D04362</h5>
+<div role="banner" class="drawer drawer--right">
+    <nav class="drawer-nav" role="navigation">
+        <ul class="drawer-menu">
+            <li class="header_li">
+                <a class="drawer-menu-item" href="./list-product.html">SẢN PHẨM</a>
+                <ul class="sub_menu">
+                    <li class="dropright"><a class="dropdown-toggle" href="">Đầm</a></li>
+                    <li class="dropright"><a class="dropdown-toggle" href="">Áo sơ mi</a></li>
+                    <li class="dropright"><a class="dropdown-toggle" href="">Áo phông</a></li>
+                    <li class="dropright"><a class="dropdown-toggle" href="">Quần</a></li>
+                    <li class="dropright"><a class="dropdown-toggle" href="">Chân váy</a></li>
+                    <li class="dropright"><a class="dropdown-toggle" href="">Sét bộ</a></li>
+                </ul>
+            </li>
+            <li class="header_li">
+                <a class="drawer-menu-item" href="./list-product.html">SẢN PHẨM MỚI</a>
+            </li>
+            <li class="header_li">
+                <a class="drawer-menu-item" href="./list-product.html">BỘ SƯU TẬP</a>
+                <ul class="sub_menu">
+                    <li><a href="">ENDLESS SUMMER </a></li>
+                    <li><a href="">NATURE IS CALLING </a></li>
+                    <li><a href="">COLOR YOUR LIFE </a></li>
+                    <li><a href="">OFFICE LADY </a></li>
+                </ul>
+            </li>
+            <li class="header_li">
+                <a class="drawer-menu-item" href="./list-product.html">NEM ONLINE</a>
+            </li>
+            <li class="header_li">
+                <a class="drawer-menu-item" href="./list-product.html">SALE</a>
+                <ul class="sub_menu">
+                    <li><a href="">Sale upto 50%</a></li>
+                    <li><a href="">Chỉ từ 149k</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <!--            <li><a  href="#">Brand</a></li>-->
+            <!--            <li><a  href="#">Nav1</a></li>-->
+            <!--            <li><a class="drawer-menu-item" href="#">Nav2</a></li>-->
+        </ul>
+    </nav>
+</div>
+<header>
+    <div class="header_top">
+        <div class="header_top_inner">
+            <div class="header_top_left">
+                <a href="">
+                    <i class="fa-solid fa-house"></i>
+                    Hệ thống showroom
                 </a>
-                <p>Phiên bản: Size 2/Đen</p>
-                <p>Thương hiệu: NEM</p>
-                <a href="#">Xóa</a>
             </div>
-            <div class="item-7 item">
-                <div class="cart-price">
-                    <h5>1,499,000đ</h5>
-                </div>
-            </div>
-            <div class="item-8 item">
-                <div class="btn">
-                    <span class="plus"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                            viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M696 480H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z">
-                            </path>
-                            <path
-                                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
-                            </path>
-                        </svg></span>
-                    <input type="input" class="form-control" placeholder="">
-                    <span class="minus"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                            viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7 11H17V13H7z"></path>
-                            <path
-                                d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z">
-                            </path>
-                        </svg> </span>
-                </div>
-
-            </div>
-            <div class="item-9 item">
-                <div class="cart-total">
-                    <h5>1,499,000đ</h5>
-                </div>
-            </div>
-            <div class="item-10 item">
-                <div class="cart-input"><label for="exampleFormControlTextarea1" class="form-label">Chú thích</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-            </div>
-            <div class="item-11 item">
-                <div class="cart-others">
-                    <div class="cart-subtotal">
-                        <p>Tổng tiền</p>
-                        <span>
-                            <h3>1,499,000đ</h3>
-                        </span>
-                    </div>
-                    <div class="btn-area">
-                        <button class="update">Cập nhật</button>
-                        <button class="payment">Thanh toán</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sign-up-container">
-            <h2>ĐĂNG KÝ BẢN TIN</h2>
-            <p>Đăng ký nhận bản tin NEM để được cập nhật những mẫu thiết kế mới nhất</p>
-            <div class="sign-up-input">
-                <input type="email" placeholder="Vui lòng nhập email ...">
-                <button>ĐĂNG KÝ</button>
-            </div>
-            <div class="social-channel">
-                <div class="channel"><img src="/txg.asset/logo_FB.png" alt=""></div>
-                <div class="channel"><img src="/txg.asset/logo_insta.png" alt=""></div>
-                <div class="channel"><img src="/txg.asset/logo_youtube.png" alt=""></div>
+            <div class="header_top_right">
+                <a href="">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    Mua hàng online: 0246.2909098
+                </a>
             </div>
         </div>
     </div>
-    
- 
+    <div class="container header_center">
+        <div class="header_logo">
+            <a href="#">
+                <img src="https://theme.hstatic.net/200000182297/1000887316/14/logo.png?v=636" alt="">
+            </a>
+        </div>
+        <nav class="header_menu">
+            <ul>
+                <li class="header_li">
+                    <a class="dropdown-toggle" href="./list-product.html">SẢN PHẨM</a>
+                    <ul class="sub_menu">
+                        <li class="dropright"><a class="dropdown-toggle" href="">Đầm</a></li>
+                        <li class="dropright"><a class="dropdown-toggle" href="">Áo sơ mi</a></li>
+                        <li class="dropright"><a class="dropdown-toggle" href="">Áo phông</a></li>
+                        <li class="dropright"><a class="dropdown-toggle" href="">Quần</a></li>
+                        <li class="dropright"><a class="dropdown-toggle" href="">Chân váy</a></li>
+                        <li class="dropright"><a class="dropdown-toggle" href="">Sét bộ</a></li>
+                    </ul>
+                </li>
+                <li class="header_li">
+                    <a class="" href="./list-product.html">SẢN PHẨM MỚI</a>
+                </li>
+                <li class="header_li">
+                    <a class="dropdown-toggle" href="./list-product.html">BỘ SƯU TẬP</a>
+                    <ul class="sub_menu">
+                        <li><a href="">ENDLESS SUMMER </a></li>
+                        <li><a href="">NATURE IS CALLING </a></li>
+                        <li><a href="">COLOR YOUR LIFE </a></li>
+                        <li><a href="">OFFICE LADY </a></li>
+                    </ul>
+                </li>
+                <li class="header_li">
+                    <a class="" href="./list-product.html">NEM ONLINE</a>
+                </li>
+                <li class="header_li">
+                    <a class="dropdown-toggle" href="./list-product.html">SALE</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Sale upto 50%</a></li>
+                        <li><a href="">Chỉ từ 149k</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav class="header_functions">
+            <ul>
+                <li class="input-group">
+                    <button class="btn" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <div class="input-group" style="display: none">
+                        <input type="text" class="form-control" placeholder="Search this blog">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="account">
+                    <a href="./login.html" class="register-link"><i class="fa-regular fa-circle-user fa-lg"></i></a>
+                    <a href="" onclick="logout()" class="logout"></a>
+                </li>
+                <li class="cart">
+                    <a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container header_center_mobile">
+        <div class="header_item">
+            <div class="header_logo">
+                <a href="../index.html">
+                    <img src="https://theme.hstatic.net/200000182297/1000887316/14/logo.png?v=636" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="header_icon">
+            <div class="header_icon_inner">
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="header_icon_bars">
+                    <a href="#" class="drawer-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="page-container">
+    <h3>Giỏ hàng</h3>
+    <div class="container">
+
+        <div class="item-1 item"><b>Sản phẩm</b></div>
+        <div class="item-2 item"><b>Giá</b></div>
+        <div class="item-3 item"><b>Số lượng</b></div>
+        <div class="item-4 item"><b>Tổng tiền</b></div>
+        <div class="item-5 item">
+            <img src="/txg.asset/cart-image.webp"
+                 class="img-fluid" alt="">
+        </div>
+
+        <div class="item-6 item">
+            <a href="#">
+                <h5>ĐẦM THIẾT KẾ D04362</h5>
+            </a>
+            <p>Phiên bản: Size 2/Đen</p>
+            <p>Thương hiệu: NEM</p>
+            <a href="#">Xóa</a>
+        </div>
+        <div class="item-7 item">
+            <div class="cart-price">
+                <h5>1,499,000đ</h5>
+            </div>
+        </div>
+        <div class="item-8 item">
+            <div class="btn">
+                    <span class="plus"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 1024 1024" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M696 480H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z">
+                            </path>
+                            <path
+                                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
+                            </path>
+                        </svg></span>
+                <input type="input" class="form-control" placeholder="">
+                <span class="minus"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                         viewBox="0 0 24 24" height="1em" width="1em"
+                                         xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 11H17V13H7z"></path>
+                            <path
+                                    d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z">
+                            </path>
+                        </svg> </span>
+            </div>
+
+        </div>
+        <div class="item-9 item">
+            <div class="cart-total">
+                <h5>1,499,000đ</h5>
+            </div>
+        </div>
+        <div class="item-10 item">
+            <div class="cart-input"><label for="exampleFormControlTextarea1" class="form-label">Chú thích</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="item-11 item">
+            <div class="cart-others">
+                <div class="cart-subtotal">
+                    <p>Tổng tiền</p>
+                    <span>
+                            <h3>1,499,000đ</h3>
+                        </span>
+                </div>
+                <div class="btn-area">
+                    <button class="update">Cập nhật</button>
+                    <button class="payment">Thanh toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sign-up-container">
+        <h2>ĐĂNG KÝ BẢN TIN</h2>
+        <p>Đăng ký nhận bản tin NEM để được cập nhật những mẫu thiết kế mới nhất</p>
+        <div class="sign-up-input">
+            <input type="email" placeholder="Vui lòng nhập email ...">
+            <button>ĐĂNG KÝ</button>
+        </div>
+        <div class="social-channel">
+            <div class="channel"><img src="/txg.asset/logo_FB.png" alt=""></div>
+            <div class="channel"><img src="/txg.asset/logo_insta.png" alt=""></div>
+            <div class="channel"><img src="/txg.asset/logo_youtube.png" alt=""></div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="title">
+        <h4>NEM FASHION - THỜI TRANG CÔNG SỞ</h4>
+    </div>
+    <div class="footer_content">
+        <div class="company_info">
+            <ul>
+                <li>Công ty TNHH Dịch vụ và Thương mại An Thành.</li>
+                <li>Số ĐKKD 0107861393, Sở KHĐT Tp. Hà Nội cấp ngày 04/10/2017</li>
+                <li>Địa chỉ: Lô 1+2, Ô quy hoạch E.2/NO7 đường Lâm Hạ
+                    phường Bồ Đề, quận Long Biên, Hà Nội
+                </li>
+                <li>Chăm sóc khách hàng: 0243.9388512</li>
+                <li>Mua hàng online: 0246.2909098</li>
+                <li>Email: nemcskh@stripe-vn.com</li>
+            </ul>
+        </div>
+        <div class="company_info">
+            <ul>
+                <li>Giới thiệu</li>
+                <li>Triết lý kinh doanh tại NEM Fashion</li>
+                <li>NEM's Blog</li>
+                <li>Hệ thống showroom</li>
+                <li>Liên hệ</li>
+            </ul>
+        </div>
+        <div class="company_info">
+            <ul>
+                <li>Chính sách giao nhận - Vận chuyển</li>
+                <li>Hướng dẫn thanh toán</li>
+                <li>Tra cứu đơn hàng</li>
+                <li>Hướng dẫn chọn Size</li>
+                <li>Quy định đổi hàng</li>
+                <li>Quy định bảo hành và sửa chữa</li>
+                <li>Khách hàng thân thiết</li>
+            </ul>
+        </div>
+        <div class="company_info">
+            <ul>
+                <li>Phương thức thanh toán</li>
+                <li><a href="#"><img src="assets/image_method_3.webp" width="100" alt=""></a></li>
+                <li><a href="#"><img src="assets/bct.webp" width="100" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ee873ebc76.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/account.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
 </body>
 
 </html>
