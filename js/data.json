@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "ĐẦM THIẾT KẾ PEPLUM D19832",
+      "price": "1.599.000d",
+      "image": "assets/products/2_bbc1a931708649169b30c502482cdecb_1024x1024.webp"
+    },
+    {
+      "name": "ĐẦM ÔM TÍM ĐÍNH HOA 3D D03622",
+      "price": "1.599.000d",
+      "image": "assets/products/2_c175885cb96f47f3b7e46b14a8610806_1024x1024.webp"
+    },
+    {
+      "name": "ĐẦM THÊU HOA D03762",
+      "price": "1.599.000d",
+      "image": "assets/products/2_09f8d49fd5d14c7dbae5e896624a9836_1024x1024.webp"
+    },
+    {
+      "name": "ÁO VEST TRẮNG AK01242",
+      "price": "1.599.000d",
+      "image": "assets/products/2_429ed020ed7844dfb409d497f66880a4_1024x1024.webp"
+    },
+    {
+      "name": "ĐẦM REN VAI CAPE D03282",
+      "price": "1.599.000d",
+      "image": "assets/products/2_a5b428f5123f486c8866b774d6a6b97e_1024x1024.webp"
+    },
+    {
+      "name": "ÁO VEST NGẮN TAY AK00482",
+      "price": "1.599.000d",
+      "image": "assets/products/3_16fa0efd41ef4f0c9ee84f353a19bf20_1024x1024.webp"
+    },
+    {
+      "name": "ĐẦM HỒNG THIẾT KẾ D01902",
+      "price": "1.599.000d",
+      "image": "assets/products/2_5ceb582cbc934cfe9d205dd7dbf2876a_1024x1024.webp"
+    },
+    {
+      "name": "ĐẦM LIỀN THIẾT KẾ D01592",
+      "price": "1.599.000d",
+      "image": "assets/products/2_8c299c0de5f94d56a656c84ceda0b823_1024x1024.webp"
+    },
+    {
+      "name": "CHÂN VÁY HỌA TIẾT Z07352",
+      "price": "1.599.000d",
+      "image": "assets/products/2_945c753584664a7a9c278e60327d5294_1024x1024.webp"
+    },
+    {
+      "name": "ĐẦM HOA NHÍ VAI NHÚN D20382",
+      "price": "1.599.000d",
+      "image": "assets/products/19_1a7f48efa9334740b7969673890dfb45_1024x1024.webp"
+    }
+  ]
+}
